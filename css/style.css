@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 204px;
+}
+.logo{
+    display: flex;
+    /* margin-top: 32px;
+    margin-left: 240px */
+}
+header .logo i{
+    background-color: #002146;
+    color: #FDC800;
+    padding: 24px;
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 24px;
+}
+header .logo h1{
+    margin-left: 16px;
+    margin-top: 16px;
+    font-size: 40px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 16px;
+}
+header nav ul li{
+    margin-right: 44px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+#home{
+    margin-left: 32px;
+}
+#welcome{
+    padding-top: 60px;
+    padding-left: 204px;        
+    padding-right: 204px;
+    padding-bottom: 32px;
+    display: flex;
+}
+.welcome-info{
+    width: 45%;
+}
+.welcome-space{
+    width: 10%;
+}
+.welcome-img{
+    width: 45%;
+}
+.welcome-info h2{
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.welcome-info p{
+    font-size: 18px;
+    padding-bottom: 16px;
+    color: #797979;
+}
+.welcome-info button{
+    border: none;
+    margin-top: 16px;
+    padding: 16px 32px;
+    background-color: #FDC800;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#info{
+    padding-top: 64px;
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-bottom: 64px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+#info .proffessional, .new-course, .live-sessions, .registered{
+    display: flex;
+    width: 25%;
+}
+#info .proffessional h1, .new-course h1, .live-sessions h1, .registered h1{
+    font-size: 40px;
+    margin-right: 16px;
+}
+#info .proffessional p, .new-course p, .live-sessions p, .registered p{
+    font-size: 20px;
+}
+#catalogue{
+    padding-top: 64px;
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-bottom: 64px;   
+}
+#catalogue .upper-catalogue, .lower-catalogue{
+    display: flex;
+    margin-bottom: 8px;
+}
+#catalogue .upper-catalogue .card-border, .lower-catalogue .card-border{
+    padding: 16px;
+    width: 25%;
+}
+#catalogue .upper-catalogue .card, .lower-catalogue .card{
+
+    padding: 40px;
+    background-color: #002146;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#catalogue .upper-catalogue .card i, .lower-catalogue .card i{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+#catalogue .upper-catalogue .card p, .lower-catalogue .card p{
+    color: white;
+    font-size: 16px;
+}
+#news{
+    padding-top: 64px;
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-bottom: 64px;
+    background-color: #F6F6F6;
+    display: flex;   
+}
+#news .news-content{
+    width: 50%;
+    padding: 24px;
+}
+.posts{
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
+}
+#news .news-content h2, .upcoming-events h2{
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+#news .news-content .latest-posts{
+    background-color: white;
+}
+.posts hr{
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid #EEEEEE;
+}
+.post-card{
+    display: flex;
+    padding: 16px 0;
+}
+.post-card img{
+    width: 203px;
+    height: 113px;
+    margin: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.post-card-content{
+    margin-top: 16px;
+}
+.post-card-content h3{
+    padding-bottom: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.post-card-content .date{
+    padding-bottom: 8px;
+    color: #939393;
+}
+.post-card-content .card-info{
+    font-size: 18px;
+    padding-top: 8px;
+}
+.news-content button{
+    margin-top: 24px;
+    padding: 16px 32px;
+    background-color: #FDC800;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+
+    float: right;
+    cursor: pointer; 
+}
+#news .upcoming-events{
+    width: 50%;
+    padding: 24px;
+}
+.upcoming-events .event-card{
+    background-color: white;
+    display: flex;
+    padding: 16px 0;
+    margin-bottom: 32px;
+}
+.event-card .date, .year{
+    padding: 0 16px;
+}
+.event-card .date .day{
+    background-color: #FDC800;
+    text-align: center;
+    padding: 0 32px;
+    border-radius: 4px 4px 0 0  ;
+
+}
+.event-card .date .day h2{
+    padding-top: 16px;
+    margin: 0;
+}
+.event-card .date .day p{
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.event-card .year{
+    background-color: #002146;
+    text-align: center;
+    padding: 16px 32px;
+    color: white;
+    border-radius: 0 0 4px 4px;
+}
+.event-card .event-info h3{
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+.event-card .event-info p{
+    font-size: 18px;
+    padding-right: 16px;
+}
+.event-card .event-info #time-places{
+    color: #002146;
+    padding-top: 16px;
+}
+.upcoming-events button{
+    padding: 16px 32px;
+    background-color: #FDC800;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    float: right;
+    cursor: pointer; 
+}
+footer{
+    padding-top: 64px;
+    padding-left: 204px;
+    padding-right: 204px;
+    padding-bottom: 64px;
+    background-color: #002146;
+
+}
+footer .footer-info{
+    display: flex;   
+}
+footer .contact, .feature, .links{
+    width: 30%;
+    padding-right: 16px;
+}
+footer .contact ul, .feature ul, .links ul{
+    list-style: none;
+}
+footer .contact ul li, .feature ul li, .links ul li{
+    padding-bottom: 8px;
+}
+footer .contact ul li a, .feature ul li a, .links ul li a{
+    text-decoration: none;
+}
+.contact h3, .feature h3, .links h3{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+.contact i{
+    color: #FDC800;
+    padding-right: 8px;
+}
+.contact a, .feature a, .links a{
+    color: white;
+    font-size: 18px;
+}
+.copyright{
+    margin-top: 32px;
+}
+.copyright hr{
+    margin-bottom: 32px;
+    color: #424345;
+}
+.copyright p{
+    color: white;
+    font-size: 18px;
+}
